@@ -35,6 +35,7 @@ public class Workingwithwindows {
 	   // driver.close();
 	   
 	}
+	//Finding the xpath
 	@Then("Click the edit button to perform action")
 	public void click_the_edit_button_to_perform_action() {
 		 driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[2]/div/div/button")).click();
